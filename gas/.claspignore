@@ -1,0 +1,16 @@
+# ローカル開発用（Google Apps Script には push しない）
+sync-env.js
+package.json
+package-lock.json
+push.sh
+push.ps1
+README.md
+.gas_env
+.gas_env.example
+.gitignore
+.claspignore
+.clasp.json
+
+# 念のため
+node_modules/**
+**/.DS_Store

@@ -1,0 +1,5 @@
+# ユーザー固有（URL を含む）
+.gas_env
+
+# clasp が生成する認証情報
+**/.clasprc.json

@@ -1,0 +1,10 @@
+{
+  "name": "opencode-presentation-gas",
+  "private": true,
+  "description": "Google Slides 自動生成 GAS（clasp）",
+  "scripts": {
+    "sync": "node sync-env.js",
+    "push": "node sync-env.js && clasp push --force",
+    "status": "node sync-env.js && clasp status"
+  }
+}

@@ -1,0 +1,17 @@
+# このファイルをコピーして .gas_env を作成してください
+#   cp .gas_env.example .gas_env
+#
+# .gas_env に URL を書いたあと:
+#   npm run sync      # ID を各ファイルへ反映
+#   npm run push      # sync + clasp push
+#
+# ※ 初回は必ず clasp login を実行してください
+#   npm install -g @google/clasp
+#   clasp login
+
+# Google スライドの URL（ブラウザのアドレスバーからそのままコピー）
+googleslide_url=https://docs.google.com/presentation/d/YOUR_PRESENTATION_ID/edit
+
+# そのスライドに紐づく GAS エディタの URL
+# （スライド画面: 拡張機能 → Apps Script で開いたエディタの URL）
+googleslide_gaseditor_url=https://script.google.com/home/projects/YOUR_SCRIPT_ID/edit
