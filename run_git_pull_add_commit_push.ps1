@@ -15,4 +15,3 @@ Write-Host "- - - - - - - - - - -"
 git add .
 git commit -m $commitMessage
 git push -u origin main
-
