@@ -5,6 +5,9 @@ Set-Location $PSScriptRoot
 $timestamp = Get-Date -Format "yyyy/MM/dd HH:mm"
 $commitMessage = "git pull && add commit push $timestamp"
 
+Write-Host "git pull"
+Write-Host "- - - - - - - - - - -"
+
 git pull
 
 Write-Host "- - - - - - - - - - -"
